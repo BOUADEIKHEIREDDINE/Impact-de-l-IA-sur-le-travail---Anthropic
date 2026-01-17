@@ -6,7 +6,7 @@ Analyse comment l'IA crée ou renforce des inégalités professionnelles.
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from llm_config import call_llm_json, USE_LLM
+from modules.llm_config import call_llm_json, USE_LLM
 
 def analyze_inequality(df_utterances, top_n=30):
     """

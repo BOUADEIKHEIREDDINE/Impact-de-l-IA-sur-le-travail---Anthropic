@@ -6,7 +6,7 @@ Détecte les contradictions entre ce que les participants disent et ce qu'ils fo
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from llm_config import call_llm_json, USE_LLM
+from modules.llm_config import call_llm_json, USE_LLM
 
 def analyze_dissonance(df_utterances, top_n=30):
     """

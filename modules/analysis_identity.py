@@ -7,7 +7,7 @@ import re
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from llm_config import call_llm_json, USE_LLM
+from modules.llm_config import call_llm_json, USE_LLM
 
 def detect_identity_mentions(text):
     """
